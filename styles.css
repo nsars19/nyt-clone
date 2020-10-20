@@ -4,6 +4,8 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/* Navbar Styling */
 .navbar {
     position: sticky;
     top: 0;
@@ -51,4 +53,44 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-right: 5px;
+}
+
+/* Article Styling */
+header {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+h1.title {
+    font-size: 2.5rem;
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.caption {
+    margin: 10px;
+    max-width: 720px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.caption-credit {
+    color: #888;
+    letter-spacing: 0.01em;
+    font-size: 0.75rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+header > img {
+    width: auto;
+    max-width: 600px;
+    height: auto;
 }
