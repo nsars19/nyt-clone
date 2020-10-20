@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    font-size: 14.25px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: auto auto 6fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+}
+.menu, .search { margin: 15px; }
+
+.category {
+    font-size: 14.25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    margin: 5px;
+}
+.category:hover { text-decoration: underline;}
+
+.home { margin-top: 8px; }
+
+.btn {
+    background-color:rgb(86, 123, 149);
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.05em;;
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    margin-right: 7px;
+    white-space: nowrap;
+    padding: 8px 12px 8px 12px;  
+}
+.nav-btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 5px;
+}
