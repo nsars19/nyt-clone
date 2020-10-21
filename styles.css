@@ -175,6 +175,7 @@ header > img {
     position: relative;
     display: grid;
     justify-content: center;
+    margin-top: 35px;
 }
 .inflation-header {
     width: 935px;
