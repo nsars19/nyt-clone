@@ -103,10 +103,13 @@ header > img {
     display: grid;
     justify-items: center;
 }
+
 .article-info {
+    width: 600px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
+    margin: 10px;
 }
 
 .author > * {
@@ -122,7 +125,7 @@ header > img {
 
 .lower-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .socials {
     display: grid;
@@ -145,7 +148,7 @@ header > img {
     background-color: white;
     border: 1px solid #999
 }
-.icons-no-circle {
+.icons.no-circle {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
@@ -155,4 +158,12 @@ header > img {
 .logo {
     height: 24px;
     width: 24px;
+}
+
+.date {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 0.8125rem;
+    line-height: 1rem;
 }
