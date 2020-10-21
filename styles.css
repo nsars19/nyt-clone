@@ -100,7 +100,7 @@ header > img {
 }
 
 /* article info styling */
-.article {
+.article-info-wrapper {
     display: grid;
     justify-items: center;
 }
@@ -234,6 +234,7 @@ header > img {
 /* paragraph & header container/text styling */
 .content-wrapper {
     display: grid;
+    justify-items: center;
 }
 .content-wrapper p.text, h3.text {
     justify-self: center;
