@@ -234,8 +234,6 @@ header > img {
 /* paragraph & header container/text styling */
 .content-wrapper {
     display: grid;
-    grid-template-columns: minmax(0, 600px);
-    grid-template-rows: auto;
     justify-items: center;
 }
 .content-wrapper p.text, h3.text {
