@@ -259,3 +259,8 @@ p.text {
     display: grid;
     justify-items: center;
 }
+
+/* lower image styling */
+#lower-image {
+    max-width: 600px;
+}
